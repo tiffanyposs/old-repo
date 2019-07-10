@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  debugger;
+  console.log('hi');
   $('#form').on('submit', function(event) {
-    debugger;
+    console.log('hi 2');
     event.preventDefault();
   });
 });
